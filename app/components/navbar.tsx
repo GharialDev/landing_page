@@ -22,16 +22,18 @@ function Navbar() {
       >
         Work as a nurse in Germany
       </h1>
-      <div className="absolute bottom-[30%] left-1/2 transform -translate-x-1/2 font-body text-lg lg:text-xl text-white  ">
+      <div className="absolute bottom-[30%] left-1/2 transform -translate-x-1/2 font-body text-lg lg:text-xl text-white">
         We guide you to a better life.
       </div>
+
+      {/* Fixed Navbar */}
       <div
-        className="header sticky top-0 z-10 flex justify-between items-center w-full py-[16px] backdrop-blur-sm"
+        className="fixed top-0 z-20 flex justify-between items-center w-full py-[16px] backdrop-blur-sm"
         style={{ background: "rgba(99, 99, 99, 0.25)" }}
       >
         <div className="menu flex-grow flex justify-center overflow-x-auto scrollbar-hide">
           <nav>
-            <ul className="flex items-center space-x-1">
+            <ul className="flex items-center space-x-1 ">
               <li className="text-lg h-[30px] w-full text-white mt-3 font-black">
                 EUROSWIFT
               </li>
