@@ -36,12 +36,10 @@ function CardContainer() {
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
-        {" "}
-        {/* Added justify-items-center */}
         {cardsData.map((card, index) => (
           <div
             key={index}
-            className="rounded overflow-hidden bg-blue-100 p-4 max-w-xs mx-auto" // Keeping original card size
+            className="rounded overflow-hidden bg-blue-100 p-4 max-w-xs mx-auto"
           >
             <div className="px-2 pt-2 pb-2">
               <div className="flex items-center mb-3">
