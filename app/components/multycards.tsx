@@ -12,14 +12,14 @@ function Multycards() {
     },
     {
       iconSrc:
-        "https://www.medicruiter.com/hubfs/Website%20Files/Icons/Property_1_Placement_qxftnc.svg",
+        "https://www.medicruiter.com/hubfs/Website%20Files/Icons/Property_1_Training_xyynfs.svg",
       title: "Work-life Balance",
       description:
         "Germany has an excellent work-life balance. You will have enough free time to enjoy your personal life and hobbies.",
     },
     {
       iconSrc:
-        "https://www.medicruiter.com/hubfs/Website%20Files/Icons/Property_1_Placement_qxftnc.svg",
+        "https://www.medicruiter.com/hubfs/Website%20Files/Icons/Property_1_Visa_eabkqt.svg",
       title: "Career Growth",
       description:
         "There are many opportunities for career development and specialization in Germany’s health care system.",
@@ -33,7 +33,7 @@ function Multycards() {
     },
     {
       iconSrc:
-        "https://www.medicruiter.com/hubfs/Website%20Files/Icons/Property_1_Placement_qxftnc.svg",
+        "https://www.medicruiter.com/hubfs/Website%20Files/Icons/Titel_Homogl_dwbich.svg",
       title: "Cultural Experience",
       description:
         "Living and working in Germany offers a rich cultural experience in the heart of Europe.",
@@ -62,7 +62,7 @@ function Multycards() {
   ];
 
   return (
-    <div className="flex flex-col items-center space-y-4 ml-10">
+    <div className="flex flex-col items-center space-y-4 ml-10 w-[100%]">
       <h2 className="text-3xl font-bold text-gray-800">
         The Medicruiter Program
       </h2>
@@ -103,7 +103,7 @@ function Multycards() {
         ))}
       </div>
 
-      <div className="mt-6 flex justify-center">
+      <div className="w-full">
         <Twobutton />
       </div>
     </div>
