@@ -17,9 +17,7 @@ export function CertificationSection() {
           </div>
         </div>
 
-        {/* Logos Section */}
         <div className="flex flex-wrap justify-center gap-4">
-          {/* RAL Logo */}
           <div className="flex justify-center items-center">
             <div className="rounded overflow-hidden">
               <img
