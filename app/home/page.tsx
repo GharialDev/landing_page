@@ -8,6 +8,7 @@ import Largevidcard from "../components/largevidocard";
 import Multyvidcard from "../components/multyvidcards";
 import Timeline from "../components/timeline";
 import Aboutimg from "../components/aboutimage";
+import Joblistnurse from "../components/joblistnurse";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <Multyvidcard />
       <Timeline />
       <Aboutimg />
+      <Joblistnurse />
     </div>
   );
 };
