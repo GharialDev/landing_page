@@ -15,7 +15,6 @@ function Navbar() {
         />
       </video>
 
-      {/* Overlay Heading */}
       <h1
         className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-title text-4xl sm:text-5xl lg:text-5xl text-white font-black mb-5 break-normal"
         style={{ textShadow: "0px 4px 20px rgba(0, 0, 0, 0.2)" }}
@@ -26,7 +25,6 @@ function Navbar() {
         We guide you to a better life.
       </div>
 
-      {/* Fixed Navbar */}
       <div
         className="fixed top-0 z-20 flex justify-between items-center w-full py-[16px] backdrop-blur-sm"
         style={{ background: "rgba(99, 99, 99, 0.25)" }}
