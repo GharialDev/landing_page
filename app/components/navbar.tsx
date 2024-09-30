@@ -16,8 +16,8 @@ function Navbar() {
       </video>
 
       <h1
-        className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-title text-4xl sm:text-5xl lg:text-5xl text-white font-black mb-5 break-normal"
-        style={{ textShadow: "0px 4px 20px rgba(0, 0, 0, 0.2)" }}
+        className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-title text-9xl sm:text-5xl lg:text-5xl text-white font-black mb-5 break-normal"
+        style={{ textShadow: "0px 5px 20px rgba(0, 0, 0, 0.2)" }}
       >
         Work as a nurse in Germany
       </h1>
