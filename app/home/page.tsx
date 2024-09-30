@@ -9,6 +9,8 @@ import Multyvidcard from "../components/multyvidcards";
 import Timeline from "../components/timeline";
 import Aboutimg from "../components/aboutimage";
 import Joblistnurse from "../components/joblistnurse";
+import FAQSection from "../components/faqsection";
+import AccordionItem from "../components/AccordionItem";
 
 const Home = () => {
   return (
@@ -23,6 +25,7 @@ const Home = () => {
       <Timeline />
       <Aboutimg />
       <Joblistnurse />
+      <FAQSection />
     </div>
   );
 };

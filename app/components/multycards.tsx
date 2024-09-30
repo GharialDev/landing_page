@@ -62,7 +62,7 @@ function Multycards() {
   ];
 
   return (
-    <div className="flex flex-col items-center space-y-4 ml-10 w-[100%]">
+    <div className="flex flex-col items-center space-y-4 ml-10 w-[100%] mt-10">
       <h2 className="text-3xl font-bold text-gray-800">
         The Medicruiter Program
       </h2>
