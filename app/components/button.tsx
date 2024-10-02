@@ -1,7 +1,7 @@
 export function Twobutton() {
   return (
     <div className="flex justify-center items-center gap-4 mt-10 w-full px-4">
-      <button className="w-[30%] rounded-full border-2 border-black font-bold text-black px-6 py-2 transition duration-200 flex items-center justify-center bg-transparent hover:bg-blue-600 hover:text-white hover:border-blue-600">
+      <button className="w-[29%] rounded-full border-2 border-black font-bold text-black px-6 py-2 transition duration-200 flex items-center justify-center bg-transparent hover:bg-blue-600 hover:text-white hover:border-blue-600">
         <span className="text-center">Learn More</span>
         <svg
           width="24"
