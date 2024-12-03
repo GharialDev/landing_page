@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 
 const videoData = [
@@ -37,7 +38,7 @@ const Multyvidcard = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
           {videoData.map((video, index) => (
             <Link href={video.href} key={index}>
-              <div className="flex flex-col block bg-white rounded-lg rounded-tr-[80px] rounded-tl-none overflow-hidden shadow-md">
+              <div className="flex flex-col bg-white rounded-lg rounded-tr-[80px] rounded-tl-none overflow-hidden shadow-md">
                 <div className="w-full aspect-video lg:overflow-hidden shrink-0 relative">
                   <img
                     src={video.imgSrc}

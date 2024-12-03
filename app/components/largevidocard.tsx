@@ -29,7 +29,7 @@ function Largevidcard() {
 
       {videoData.map((video, index) => (
         <div key={index} className="mx-auto mb-5 mt-8">
-          <div className="flex flex-col block bg-white rounded-lg rounded-tr-[70px] overflow-hidden shadow-md">
+          <div className="flex flex-col bg-white rounded-lg rounded-tr-[70px] overflow-hidden shadow-md">
             <a href={video.videoLink} className="glightbox3 relative">
               <video
                 data-desktop-vid={video.videoSrc}
